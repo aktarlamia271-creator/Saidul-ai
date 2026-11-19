@@ -1,0 +1,20 @@
+=== সাইদুল ভিডিও ডাউনলোডার: APK বানানোর ধাপ ===
+
+১) github.com এ ফ্রি অ্যাকাউন্ট খুলে লগইন করুন।
+২) New repository চাপুন। নাম দিন: saidul-video-downloader
+   Public সিলেক্ট করে Create করুন।
+৩) "uploading an existing file" চাপুন। এই ZIP খুলে ভেতরের
+   app ফোল্ডার, build.gradle.kts, settings.gradle.kts,
+   gradle.properties — এই সব টেনে এনে দিন। Commit changes চাপুন।
+   (ZIP ফাইলটা নিজে আপলোড করবেন না, আগে খুলে নিন।)
+৪) এবার Add file > Create new file চাপুন।
+   নামের ঘরে ঠিক এটা লিখুন:  .github/workflows/build.yml
+   (স্ল্যাশ / দিলে ফোল্ডার নিজে তৈরি হবে)
+   "1-build.yml.txt" ফাইলের পুরো লেখা কপি করে ওখানে পেস্ট করুন।
+   Commit changes চাপুন।
+৫) Actions ট্যাবে যান। বিল্ড চলবে (৫-১০ মিনিট)। সবুজ টিক এলে
+   বিল্ডটা খুলুন, নিচে Artifacts থেকে SaidulVideoDownloader-apk নামান।
+   (লগইন করা অবস্থায় নামাতে হবে)
+৬) ZIP খুলে app-debug.apk ফোনে ইনস্টল করুন।
+
+লাল ✗ এলে বিল্ডটা খুলে ভুলের লেখাটা আমাকে পাঠান।

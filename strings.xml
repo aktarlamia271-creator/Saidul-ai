@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">সাইদুল ভিডিও ডাউনলোডার</string>
+    <string name="hint_link">ভিডিওর লিংক এখানে পেস্ট করুন</string>
+    <string name="btn_download">ডাউনলোড</string>
+    <string name="status_idle">YouTube, Facebook, Instagram, TikTok ইত্যাদির লিংক দিন</string>
+</resources>
